@@ -1,556 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 
 <head>
-
-
     <meta charset="utf-8">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-  
-    
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="1024">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="home.html" />
-    <meta property="og:title" content="my portfolio" />
-
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MY PORTFOLIO</title>
-
-    <!-- Custom fonts for this theme -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skills.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
 </head>
 
-<body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">welcome</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Skills">Skills</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                </ul>
+<body>
+    <div class="page-header">
+        <div class="main-menu">
+            <div class="menu-items">
+                <div class="items-divider">
+                    <img src="svg/programmer.svg">
+                </div>
+                <div class="items-divider btn-left">
+                    <a class="btn-items" href="#">Download CV</a>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <!-- Masthead -->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
+        <div class="wrap-info">
 
-            <!-- Masthead Avatar Image -->
-            <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
+            <div class="first-info animated animatedFadeInUp fadeInUp">
 
-            <!-- Masthead Heading -->
-            <h1 class="masthead-heading text-uppercase mb-0">Hello I'm <br>Jose Rodny Sibugan</h1>
+                <div class="first-info-divider">
+                    <img class="fisrt-title" src="img/me.png"> <br><br>
+                    <div class="about-info">
+                        <div class="info-center">
+                            <div class=" info-wrap">
+                                <div class="info-one">
+                                    Hi, I am Jose Rodny Sibugan, a Back-end developer and graduated in Pamantasan ng Lungsod ng Marikina (PLMAR)
 
-            <!-- Icon Divider -->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <!-- Masthead Subheading -->
-            <p class="masthead-subheading font-weight-light mb-0"></p>
-
-
-        </div>
-    </header>
-
-    <!-- Portfolio Section -->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-
-            <!-- Portfolio Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-
-            <!-- Icon Divider -->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <!-- Portfolio Grid Items -->
-            <div class="row">
-
-                <!-- Portfolio Item 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <i class="fas fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/capstone.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <i class="fas fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/pos.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <i class="fas fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/wine1.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 4 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <i class="fas fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/inven.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Portfolio Item 5 -->
-
-
-                <!-- Portfolio Item 6 -->
-
-
-            </div>
-            <!-- /.row -->
-
-        </div>
-    </section>
-
-
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-
-            <!-- About Section Heading -->
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <img class="col-md-6 col-lg-4 align-items-center" src="img/me.png" alt="">
-            </div><br>
-            <h2 class="page-section-heading text-center text-uppercase text-white">About me</h2>
-
-            <!-- Icon Divider -->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <!-- About Section Content -->
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="lead">Hi, I am Jose Rodny Sibugan, a Software developer and currently taking Information Technology in Pamantasan ng Lungsod ng Marikina (PLMAR)</p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="lead">Programming is my passion and I treat it as a hobby. Aside programming I enjoy spending my time playing games taking photos.</p>
-                </div>
-            </div>
-
-
-            <!-- About Section Button -->
-          
-
-        </div>
-    </section>
-
-
-    <!-- About Section -->
-    <section class="page-section  mb-0" id="education">
-        <div class="container">
-
-            <!-- About Section Heading -->
-
-            <h2 class="page-section-heading text-center text-uppercase">education</h2>
-
-            <!-- Icon Divider -->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>
-
-            <!-- About Section Content -->
-            <section class="timeline">
-
-
-
-                <ul>
-                    <li>
-                        <div class="content">
-                            <h2>
-                                <time>2019</time>
-                            </h2>
-                            <p>Pamantasan ng Lungsod ng Marikina<br>( College )</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <h2>
-                                <time>2016</time>
-                            </h2>
-                            <p>Miriam College<br>( Vocational course )</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <h2>
-                                <time>2013</time>
-                            </h2>
-                            <p>Balara Hign School<br>( Secondary school )</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content">
-                            <h2>
-                                <time>2009</time>
-                            </h2>
-                            <p>Balara Elementary School<br>( Primary school )</p>
-
-                        </div>
-                    </li>
-
-                </ul>
-            </section>
-
-        </div>
-    </section>
-
-
-    <section class="page-section bg-primary text-white portfolio" id="Skills">
-        <div class="container">
-
-            <!-- Portfolio Section Heading -->
-            <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Skills</h2>
-
-            <!-- Icon Divider -->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <div class="bar my mysql" data-skill="MYSQL">60%</div>
-            <div class="bar learning" data-skill="PHP">40%</div>
-
-            <div class="bar back intermediate" data-skill="C#.NET">15%</div>
-            <div class="bar front advanced" data-skill="CSS">30%</div>
-            <div class="bar htm expert" data-skill="HTML">70%</div>
-            <div class="bar comp test" data-skill="COMPUTER TROUBLESHOOTING">80%</div>
-
-        </div>
-    </section>
-
-
-
-    <!-- Contact Section -->
-    <section class="page-section " id="contact">
-        <div class="container">
-
-            <!-- Contact Section Heading -->
-            <h2 class="page-section-heading  text-center text-uppercase  mb-0">Contact Me</h2>
-
-            <!-- Icon Divider -->
-            <div class="divider-custom ">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="divider-custom-line">
-
-                </div>
-            </div>
-
-            <!-- Contact Section Form -->
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-
-
-                    <h3 class=" text-center masthead-subheading font-weight-light mb-0">rodnyjosesibugan@gmail.com
-                        <br</h3>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Location -->
-
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <!-- Footer Social Icons -->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://web.facebook.com/joserodnys">
-                            <i class="fab fa-fw fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/jrodnys/">
-                            <i class="fab fa-fw fa-instagram"></i>
-                        </a>
-
-
-                    </div>
-                </div>
-                <!-- Footer About Text -->
-
-
-            </div>
-        </div>
-    </footer>
-
-    <!-- Copyright Section -->
-    <section class="copyright py-4 text-center text-white">
-        <div class="container">
-            <small>Copyright &copy; 2019</small>
-        </div>
-    </section>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Capstone project</h2>
-                                <!-- Icon Divider -->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/capstone.png" alt="">
-                                <!-- Portfolio Modal - Text -->
-                                <p class="mb-5">An online web based evecuation management system that will provide a proper number of evacuees in every evacuation area.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">simple project</h2>
-                                <!-- Icon Divider -->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="divider-custom-line"></div>
+                            <div class=" info-wrap">
+                                <div>
+                                    Programming is my passion and I treat it as a hobby. Aside programming I enjoy spending my time playing games taking photos.
                                 </div>
-                                <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/pos.png" alt="">
-                                <!-- Portfolio Modal - Text -->
-                                <p class="mb-5">bootstrap and PHP.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">simple project</h2>
-                                <!-- Icon Divider -->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/wine.png" alt="">
-                                <!-- Portfolio Modal - Text -->
-                                <p class="mb-5">ordering system bootstrap php</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-                            </div>
-                        </div>
+
+                <div class="first-info-divider ">
+                    <div class="as">
+                        <div id="anim" class="home-right"></div>
+
                     </div>
+
+
                 </div>
+
             </div>
+
+
+        </div>
+        <div class="wrap-info port-info">
+            <h1>Portfolio</h1>
+            <div class="center-port animated animatedFadeInUp fadeInUp">
+                <div class="inside-port">
+                    saf
+                </div>
+                <div class="inside-port">
+                    asf
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="wrap-info">
+            <h1>Portfolio</h1>
+
+
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.6.10/lottie.js" type="text/javascript"></script>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-                <div class="modal-body text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">simple project</h2>
-                                <!-- Icon Divider -->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image -->
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/inven.png" alt="">
-                                <!-- Portfolio Modal - Text -->
-                                <p class="mb-5">simple inventory using c# windows form</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-
-
-    <!-- Portfolio Modal 6 -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-    <script src="js/index.js"></script>
-
+    <script src="js/script.js" async defer></script>
 </body>
 
 </html>
