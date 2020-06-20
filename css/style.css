@@ -335,6 +335,7 @@ button:focus {
     width: 100%;
     z-index: 9999;
     background: #ffffff;
+    box-shadow: 5px 5px 15px rgba(75, 75, 75, 0.9);
 }
 
 .header_area .menu_nav {
